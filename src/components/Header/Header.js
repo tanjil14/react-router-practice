@@ -15,6 +15,9 @@ const Header = () => {
       <NavLink exact activeStyle={activeStyle} to="/friends">
         friends
       </NavLink>
+      <NavLink exact activeStyle={activeStyle} to="/posts">
+        posts
+      </NavLink>
       <NavLink exact activeStyle={activeStyle} to="/about">
         about
       </NavLink>
